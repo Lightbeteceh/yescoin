@@ -1,0 +1,14 @@
+﻿**_ Hướng dẫn cài đặt _**
+
+- B1: Tải và giải nén tool
+- B2: Chạy lệnh: npm install để cài đặt thư viện bổ trợ
+- B3: Nhập query_id/user vào file user.txt và proxy vào file proxy.txt, không có proxy thì bỏ qua file file proxy.txt
+
+**_ Các lệnh chức năng chạy tool _**
+
+- npm run yescoin: Dùng để chạy tool khi không dùng proxy.
+- npm run yescoin-proxy: Dùng để chạy tool khi có dùng proxy.
+
+**Chú ý: + Dùng nhiều tài khoản thì mỗi tk ứng với mỗi query_id/user và proxy trên một dòng.
+         + Định dạng file user.txt: "query_id=xxxx hoặc user_id=xxxx"
+         + Định dạng file proxy.txt: "http://user:pass@ip:port"
